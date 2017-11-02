@@ -296,3 +296,26 @@ curl http://127.0.0.1:3200/
 
 更多vsc用法，参见 https://github.com/i5ting/vsc
 
+## mongodb
+
+安装
+
+```
+$ brew install mongo 
+```
+
+启动
+
+```
+$ npm i -g mh
+$ mh
+```
+
+mh内置2个命令
+
+- mh是当前目录启动，数据独立
+- mhg是在~下启动，共享数据
+
+最好的mongodb管理客户端
+
+- https://robomongo.org/（mac）
