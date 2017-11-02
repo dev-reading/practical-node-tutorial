@@ -2,6 +2,15 @@
 
 实用Node.js，简单粗暴，新手学习的最短曲线
 
+目录
+
+- 安装环境
+- 准备工作目录
+- 常用软件
+- 编辑器推荐VSCode
+- 学会VSCode调试
+- ...
+
 ## 安装环境
 
 3m安装法
@@ -29,7 +38,7 @@ $ nvm install 8
 
 ### nrm
 
-https://registry.npm.js是node官方的源（registry），服务器在国外，下载速度较慢，推荐安装nrm来切换源，国内的cnpm和taobao的源都非常快，当然，如果你想自建源也是支持的。
+https://registry.npmjs.com 是node官方的源（registry），服务器在国外，下载速度较慢，推荐安装nrm来切换源，国内的cnpm和taobao的源都非常快，当然，如果你想自建源也是支持的。
 
 ```shell
 $ npm install --global nrm --registry=https://registry.npm.taobao.org
