@@ -9,6 +9,7 @@
 - 常用软件
 - 编辑器推荐VSCode
 - 学会VSCode调试
+- Mongo数据库
 - ...
 
 ## 安装环境
@@ -296,7 +297,17 @@ curl http://127.0.0.1:3200/
 
 更多vsc用法，参见 https://github.com/i5ting/vsc
 
-## mongodb
+## Mongo数据库
+
+为什么要用mongodb？
+
+- 它是mean架构里的m（mongo）
+- 它是最像rdbms（mysql、oracle、db2）的nosql
+- 它的性能非常好，nosql天生优势，同时支持大数据处理和文件系统支持
+- 它对运维要求非常低，一般开发就可以
+- 它对事务支持不够好，但可以
+	- 利用冗余，单个collection的事务处理做，宽表打扁
+	- 通过二阶段法提交事务
 
 安装
 
